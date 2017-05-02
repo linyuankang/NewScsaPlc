@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_err_log"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tw.com.scsa.newscsaplc.ErrLogActivity"
+    android:orientation="vertical">
+
+    <ViewFlipper
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:id="@+id/errFlipper">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="異常通報"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/moniter"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:layout_weight="1"
+                    android:layout_width="0dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10">
+                <!--            <TextView
+                                android:id="@+id/tvCWJ"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/background_light"
+                                android:scrollbars="vertical"
+                                android:singleLine="false"
+                                android:maxLines="15"
+                                android:textColor="#FF0000"/>
+                -->
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/errList1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ViewFlipper>
+</LinearLayout>

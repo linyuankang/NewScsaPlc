@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PLC 雲監控</string>
+    <string name="title_activity_menu">Sign in</string>
+    <string name="setName">名稱設定</string>
+    <string name="setErr">錯誤碼設定</string>
+    <string name="notyTest">通知測試</string>
+    <string name="staffEmail">請輸入信箱</string>
+    <string name="action_settings">登出</string>
+    <string name="herfText"><a href="http://www.scsa.com.tw/">陞創智動Copyright © 2016 \n http://www.scsa.com.tw/</a></string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
